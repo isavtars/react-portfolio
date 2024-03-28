@@ -14,6 +14,30 @@ export const About = () => {
   return (
     <HelmetProvider>
       <Container className="About-header">
+        <center style={{ padding: "20px" }}>
+          <img
+            src={dataabout.profileimage}
+            style={{
+              borderRadius: "50%",
+              width: "200px",
+              height: "200px",
+              objectFit: "cover",
+              display: "inside",
+              margin: "0 auto",
+            }}
+            alt="Profile"
+          />
+
+          <h5>0:0●━━━━━━━━━━━4:30ㅤ</h5>
+
+          <h5>🎵🎵 ❚❚ ◁ 🎵🎵</h5>
+          <h5>True music lover🎶</h5>
+
+          <h5>🅴🅽🆃🆁🅴p🆁🅴🅽🅴🆄🆁</h5>
+
+          <h4>🕉Namha shivaya</h4>
+        </center>
+
         <Helmet>
           <meta charSet="utf-8" />
           <title> About | {meta.title}</title>

@@ -12,12 +12,13 @@ const introdata = {
         third: "I develop mobile apps",
     },
     description: "Hi 👋, I'm Bibek Bohora \n A passionate Flutter developer from Nepal",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    profileimage: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
 const dataabout = {
     title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    profileimage:"images/profile.jpg",
+    aboutme: " I am passionate about building excellent software that improves the lives of those around me.",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -80,7 +81,7 @@ const services = [
     },
     {
         title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        description: "I am passionate about building excellent software that improves the lives of those around me.",
     },
 ];
 
