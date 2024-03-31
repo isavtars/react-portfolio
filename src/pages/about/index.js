@@ -19,8 +19,8 @@ export const About = () => {
             src={dataabout.profileimage}
             style={{
               borderRadius: "50%",
-              width: "200px",
-              height: "200px",
+              width: "210px",
+              height: "265px",
               objectFit: "cover",
               display: "inside",
               margin: "0 auto",
@@ -33,7 +33,7 @@ export const About = () => {
           <h5>🎵🎵 ❚❚ ◁ 🎵🎵</h5>
           <h5>True music lover🎶</h5>
 
-          <h5>🅴🅽🆃🆁🅴p🆁🅴🅽🅴🆄🆁</h5>
+          <h5>🅴🅽🆃🆁🅴🅿🆁🅴🅽🅴🆄🆁</h5>
 
           <h4>🕉Namha shivaya</h4>
         </center>
@@ -47,6 +47,11 @@ export const About = () => {
           <Col lg="8">
             <h1 className="display-4 mb-4">About me</h1>
             <hr className="t_border my-4 ml-0 text-left" />
+            
+        
+            {/* <button onClick={handleDownload}>Download CV</button> */}
+          
+     
           </Col>
         </Row>
         <Row className="sec_sp">

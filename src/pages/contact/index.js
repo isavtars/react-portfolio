@@ -21,6 +21,11 @@ export const ContactUs = () => {
     e.preventDefault();
     setFormdata({ loading: true });
 
+    setFormdata((prevFormData) => ({
+      ...prevFormData,
+      message: "",
+    }));
+
     const templateParams = {
       email: formData.email,
       name: formData.name,
@@ -44,6 +49,8 @@ export const ContactUs = () => {
             variant: "success",
             show: true,
           });
+
+          
         },
         (error) => {
           console.log(error.text);

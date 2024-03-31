@@ -11,7 +11,7 @@ const introdata = {
         second: "I code cool websites",
         third: "I develop mobile apps",
     },
-    description: "Hi 👋, I'm Bibek Bohora \n A passionate Flutter developer from Nepal",
+    description: "Hi 👋, I'm Bibek Bohora",
     profileimage: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
 };
 
@@ -77,10 +77,16 @@ const services = [
     
     {
         title: "Mobile Apps",
-        description: "",
+        description: "I am passionate about Mobile Applicatons. I am working as flutter developer at BroSoft.Experienced software engineer with Flutter mobile projects where I participated as a key developer: Understanding of complex solutions, programming technologies, and design patterns. Experienced in Flutter development. Experienced in customer communication and technical assistance.",
     },
     {
-        title: "Wordpress Design",
+        title: "Reacts js",
+        description: "I am passionate about building excellent software that improves the lives of those around me.",
+    },
+
+
+    {
+        title: "Nodejs ",
         description: "I am passionate about building excellent software that improves the lives of those around me.",
     },
 ];
@@ -151,7 +157,7 @@ const dataportfolio = [{
 const contactConfig = {
     YOUR_EMAIL: "bibchhetri5678@gmail.com",
     YOUR_FONE: "9843111113",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    description: "Feel free to get in touch with me. I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_gihc4pg",
