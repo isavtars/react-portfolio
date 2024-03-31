@@ -92,14 +92,14 @@ const services = [
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "edusmarts.png",
+        description: "Whether you're a teacher looking to streamline lesson planning or a student organizing study materials, EduSmartTools offers a comprehensive suite of tools designed to simplify your educational tasks.",
+        link: "https://play.google.com/store/apps/details?id=com.edusmarttools.app",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "prototye.png",
+        description: "This is todo application.that is reminder application for users",
+        link: "https://github.com/isavtars/todo",
     },
     {
         img: "https://picsum.photos/400/?grayscale",
