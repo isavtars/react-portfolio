@@ -12,6 +12,7 @@
     "react-icons": "^4.1.0",
     "react-router-dom": "^6.6.2",
     "react-scripts": "^5.0.1",
+ 
     "react-transition-group": "^4.4.2",
     "typewriter-effect": "^2.18.2",
     "web-vitals": "^3.1.1",
@@ -45,7 +46,6 @@
   },
   "description": "A simple portfolio template for developer/designers built with React.",
   "main": "index.js",
-  "devDependencies": {},
   "author": "",
   "license": "ISC"
 }

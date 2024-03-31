@@ -10,9 +10,18 @@ import {
   services,
 } from "../../content_option";
 
+
 export const About = () => {
+
+  const pdfd=()=>{
+    setTimeout(()=>{
+      toast.success("cv download sucess");
+    },3000)
+  }
   return (
+    
     <HelmetProvider>
+  
       <Container className="About-header">
         <center style={{ padding: "20px" }}>
           <img
@@ -36,6 +45,10 @@ export const About = () => {
           <h5>🅴🅽🆃🆁🅴🅿🆁🅴🅽🅴🆄🆁</h5>
 
           <h4>🕉Namha shivaya</h4>
+          <button className="btn ac_btn" onClick={pdfd} >
+          <a href='merocv.pdf'  download='avtart cv my-2 lg:my-0'> DOWNLODA CV</a>
+                   
+                  </button>
         </center>
 
         <Helmet>
@@ -49,7 +62,7 @@ export const About = () => {
             <hr className="t_border my-4 ml-0 text-left" />
             
         
-            {/* <button onClick={handleDownload}>Download CV</button> */}
+            
           
      
           </Col>
@@ -124,6 +137,8 @@ export const About = () => {
           </Col>
         </Row>
       </Container>
+      
     </HelmetProvider>
+   
   );
 };
