@@ -169,7 +169,7 @@ const socialprofils = {
     github: "https://github.com/isavtars",
     facebook: "https://www.facebook.com/bibek.chhetri.73113/",
     linkedin: "https://www.linkedin.com/in/bibek-bohora-83694227a/?originalSubdomain=np",
-    twitter: "https://twitter.com",
+    twitter: "https://twitter.com/bib_chhetri",
 };
 export {
     meta,
